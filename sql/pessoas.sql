@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Máquina: localhost
--- Data de Criação: 07-Set-2020 às 01:10
+-- Data de Criação: 11-Set-2020 às 20:00
 -- Versão do servidor: 5.6.13
 -- versão do PHP: 5.4.17
 
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `pessoas` (
   `idade` int(11) NOT NULL,
   `endereco` varchar(40) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=12 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=13 ;
 
 --
 -- Extraindo dados da tabela `pessoas`
@@ -40,16 +40,15 @@ CREATE TABLE IF NOT EXISTS `pessoas` (
 
 INSERT INTO `pessoas` (`id`, `nome`, `idade`, `endereco`) VALUES
 (1, 'Ricardo', 40, 'Rua das Flores'),
-(2, 'Paulo', 14, 'Rua das Crisantemos'),
+(2, 'Pablo', 14, 'Rua das Crisantemos'),
 (3, 'Pedro', 23, 'Rua das Amelias'),
 (4, 'Augusto', 27, 'Rua das BromÃ©lias'),
-(5, 'Luiza', 19, 'Rua dos Fuscas'),
+(5, 'Luiza', 19, 'Rua do Fusca'),
 (6, 'Rafael Pavan', 25, 'Rua das Lojas'),
 (7, 'Vinicius Almeida', 23, 'Rua das Ãrvores'),
 (8, 'Sabrina Zanella', 31, 'Rua das Plantas'),
 (9, 'Jhenifer', 17, 'Rua dos Doces'),
-(10, 'Rafaelly Camargo', 18, 'Rua dos Quadros'),
-(11, 'Zeca EvoluÃ§Ã£o', 35, 'Rua das tatuagens');
+(10, 'Rafaelly Camargo', 19, 'Rua do Quadro');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
